@@ -7,7 +7,7 @@ using FFXIVClientStructs.FFXIV.Component.GUI;
 using HiAuRo.Infrastructure;
 using HiAuRo.ImGuiLib;
 using OmenTools;
-using OmenTools.Dalamud.Services.StatusList.Abstractions;
+using OmenTools.Dalamud.Services.Game.Abstractions;
 using OmenTools.Interop.Game.Helpers;
 using OmenTools.OmenService;
 

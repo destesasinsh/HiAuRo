@@ -520,7 +520,7 @@ using OmenTools;
 using OmenTools.ImGuiOm;
 using OmenTools.Extensions;
 using OmenTools.OmenService;
-using OmenTools.Dalamud.Services.ObjectTable.Abstractions.ObjectKinds;
+using OmenTools.Dalamud.Services.Game.Object.Abstractions.ObjectKinds;
 using Dalamud.Bindings.ImGui;
 using Dalamud.Bindings.ImGuizmo;
 using Dalamud.Bindings.ImPlot;

@@ -33,42 +33,67 @@
           "Microsoft.CodeAnalysis.Common": "[4.13.0]"
         }
       },
-      "FlatSharp.Runtime": {
+      "Microsoft.Net.Compilers.Toolset": {
+        "type": "Direct",
+        "requested": "[5.9.0, )",
+        "resolved": "5.9.0",
+        "contentHash": "W0fkdgbm+RTf2jyNetGFJpiZ66bpJe4eu6zrSnsAOqad5QLPaU/nWuRAgiRHIVzkpPJzSlS3cKFD+CzzUUS0pg=="
+      },
+      "AngleSharp": {
         "type": "Transitive",
-        "resolved": "7.9.0",
-        "contentHash": "Bm8+WqzEsWNpxqrD5x4x+zQ8dyINlToCreM5FI2oNSfUVc9U9ZB+qztX/jd8rlJb3r0vBSlPwVLpw0xBtPa3Vw=="
+        "resolved": "1.8.5",
+        "contentHash": "BUgFIpmkjwMPi6QneHUHaprjUOGSXoWEF/xi/2seHCpnI8XMHACNiC09rn9qL8jbxrP8jWyJ3DnOjsGvXWNGmw=="
       },
       "GuerrillaNtp": {
         "type": "Transitive",
         "resolved": "3.1.0",
         "contentHash": "KebM3/iZtZWgeFuGTQJyWu+VQKAeq1xXY9bkSSDv27hALxDtSdJAfPnT8dWpl7ti2B3ajnMj70/VLXY4D3bupg=="
       },
+      "Markdig": {
+        "type": "Transitive",
+        "resolved": "1.4.1",
+        "contentHash": "laiWlBRnwVqQlY9eWR56+uteUVtR+LpGw0doMSpirFuxdplSi3V59UOGRTepJaE8hJvfKGcCoguIZ8jmUHcEnA=="
+      },
+      "MessageFormat": {
+        "type": "Transitive",
+        "resolved": "8.0.0",
+        "contentHash": "+nmYgGQVhGXmvQd+AMYILZGTxOP4J9tOR3KbjoxMDDICRrSzHYB9v1aRRVnXkD1ZeBapscFWIf5B/ck3p9R1mg=="
+      },
       "Microsoft.CodeAnalysis.Analyzers": {
         "type": "Transitive",
         "resolved": "3.11.0",
         "contentHash": "v/EW3UE8/lbEYHoC2Qq7AR/DnmvpgdtAMndfQNmpuIMx/Mto8L5JnuCfdBYtgvalQOtfNCnxFejxuRrryvUTsg=="
       },
-      "SharedMemory": {
+      "Microsoft.Extensions.DependencyInjection": {
         "type": "Transitive",
-        "resolved": "2.3.2",
-        "contentHash": "hH34Y9xzvdJpgf/vwyWE/zYlY4BdQS3Zolfdg+8hV9A+UQRsBWyBS62kcLO55mF4etmMoL0PswEbT3lVXJSlFw=="
+        "resolved": "10.0.13",
+        "contentHash": "4tnWU9vrU/A8NwYe9Z6wvieZ0EBb/uM82LAT+edNhdepOBWREZ7M7mzb941EIDPJaeOFdbVrDd5+7s9e89U6bQ==",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.13"
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions": {
+        "type": "Transitive",
+        "resolved": "10.0.13",
+        "contentHash": "G2GrGWNAPZBsii2F6AU8n+JT2tC1/I0Ml/e9ZyNCgPjf3hZqronP7o0X91aAynCmVeae8KkSIUNXXeXCNRmdVQ=="
       },
       "TinyPinyin": {
         "type": "Transitive",
         "resolved": "1.1.0",
         "contentHash": "pwe99NXsWkSeJdOwzcweorlyoB2frOlTU37QwzmnnxfRT5vRENXm4UOl5g4Nxq5V9lYOBWK1mZIozFfIlDVjYA=="
       },
-      "hiauro.helper": {
-        "type": "Project",
-        "dependencies": {
-          "DalamudPackager": "[15.0.0, )",
-          "OmenTools": "[1.0.0, )"
-        }
+      "ffxivclientstructs.expansion": {
+        "type": "Project"
       },
       "omentools": {
         "type": "Project",
         "dependencies": {
+          "AngleSharp": "[1.8.5, )",
+          "FFXIVClientStructs.Expansion": "[1.0.0, )",
           "GuerrillaNtp": "[3.1.0, )",
+          "Markdig": "[1.4.1, )",
+          "MessageFormat": "[8.0.0, )",
+          "Microsoft.Extensions.DependencyInjection": "[10.0.13, )",
           "TinyPinyin": "[1.1.0, )"
         }
       }

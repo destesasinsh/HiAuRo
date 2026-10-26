@@ -4,7 +4,7 @@ FFXIV Dalamud 战斗辅助框架（.NET 10，Dalamud.CN.NET.Sdk 15.0.0）。
 
 不是职业循环 — 提供运行时、数据层、ACR 接口、执行轴、事实轴、决策层和 Web 编辑器。
 
-[![Build](https://github.com/denghaoxuan991876906/HiAuRo/actions/workflows/ci.yml/badge.svg)](https://github.com/denghaoxuan991876906/HiAuRo/actions)
+[![Build](https://github.com/destesasinsh/HiAuRo/actions/workflows/ci.yml/badge.svg)](https://github.com/destesasinsh/HiAuRo/actions)
 
 ## ACR 开发者 — 一键开始
 
@@ -40,13 +40,13 @@ public class MyAcr : IRotationEntry
 作者源地址示例（可直接添加到 HiAuRo 源管理页）：
 
 ```text
-https://raw.githubusercontent.com/denghaoxuan991876906/HiAuRo-SampleACR/master/publisher.json
+https://raw.githubusercontent.com/destesasinsh/HiAuRo-SampleACR/master/publisher.json
 ```
 
 ## 编译
 
 ```bash
-git clone --recurse-submodules https://github.com/denghaoxuan991876906/HiAuRo
+git clone --recurse-submodules https://github.com/destesasinsh/HiAuRo
 cd HiAuRo
 dotnet build HiAuRo.slnx -c Release
 ```
@@ -130,6 +130,6 @@ Browsingway/         ← CEF 渲染参考（submodule）
 
 | 仓库 | 说明 |
 |------|------|
-| [HiAuRo-SampleACR](https://github.com/denghaoxuan991876906/HiAuRo-SampleACR) | 示例 ACR 实现 |
-| [HiAuRo.Helper](https://github.com/denghaoxuan991876906/HiAuRo.Helper) | 全职业数据辅助库 |
+| [HiAuRo-SampleACR](https://github.com/destesasinsh/HiAuRo-SampleACR) | 示例 ACR 实现 |
+| [HiAuRo.Helper](https://github.com/destesasinsh/HiAuRo.Helper) | 全职业数据辅助库 |
 | [HiAuRo.Sdk](https://www.nuget.org/packages/HiAuRo.Sdk) | ACR 开发 NuGet 包 |

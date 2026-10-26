@@ -1,5 +1,5 @@
 using OmenTools.OmenService;
-using OmenTools.Dalamud.Services.ObjectTable.Abstractions.ObjectKinds;
+using OmenTools.Dalamud.Services.Game.Object.Abstractions.ObjectKinds;
 
 namespace HiAuRo;
 

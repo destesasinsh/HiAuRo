@@ -2,7 +2,7 @@ namespace HiAuRo.UI;
 
 public static class EditorLaunchHelper
 {
-    public const string HostedToolsUrl = "https://denghaoxuan991876906.github.io/HiAuRo.WebTools/";
+    public const string HostedToolsUrl = "https://destesasinsh.github.io/HiAuRo.WebTools/";
 
     public static string BuildWebToolsUrl()
     {

@@ -1,3 +1,6 @@
 [submodule "OmenTools"]
 	path = OmenTools
 	url = https://github.com/AtmoOmen/OmenTools.git
+[submodule "FFXIVClientStructs.Expansion"]
+	path = FFXIVClientStructs.Expansion
+	url = https://github.com/AtmoOmen/FFXIVClientStructs.Expansion

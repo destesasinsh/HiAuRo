@@ -1,7 +1,7 @@
-using OmenTools.Dalamud.Services.ObjectTable.Abstractions.ObjectKinds;
-using OmenTools.Dalamud.Services.ObjectTable.Enums;
+using OmenTools.Dalamud.Services.Game.Object.Abstractions.ObjectKinds;
+using OmenTools.Dalamud.Services.Game.Object.Enums;
 using Dalamud.Game.ClientState.Objects.Enums;
-using IGameObj = OmenTools.Dalamud.Services.ObjectTable.Abstractions.ObjectKinds.IGameObject;
+using IGameObj = OmenTools.Dalamud.Services.Game.Object.Abstractions.ObjectKinds.IGameObject;
 
 namespace HiAuRo;
 

@@ -6,7 +6,7 @@ using Dalamud.Game.Text;
 using Dalamud.Hooking;
 using FFXIVClientStructs.FFXIV.Client.Game.Network;
 using FFXIVClientStructs.FFXIV.Client.Game.Object;
-using OmenTools.Dalamud.Services.ObjectTable.Abstractions.ObjectKinds;
+using OmenTools.Dalamud.Services.Game.Object.Abstractions.ObjectKinds;
 using OmenTools.OmenService;
 using IFramework = Dalamud.Plugin.Services.IFramework;
 

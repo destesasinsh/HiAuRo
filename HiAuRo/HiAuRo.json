@@ -5,8 +5,9 @@
   "Description": "HiAuRo 是一个全栈战斗辅助框架，提供 ACR 接口、执行轴、事实轴、智能决策层和完整的 UI 系统。ACR 作者可开发各职业的战斗逻辑，普通用户也可通过内置轴获得完整的战斗辅助体验。",
   "InternalName": "HiAuRo",
   "AssemblyVersion": "0.2.37.0",
-  "RepoUrl": "https://github.com/denghaoxuan991876906/HiAuRo",
-  "IconUrl": "https://raw.githubusercontent.com/denghaoxuan991876906/HiAuRo/master/HiAuRo/Resources/HiAuRoIcon.png",
+  "DalamudApiLevel": 15,
+  "RepoUrl": "https://github.com/destesasinsh/HiAuRo",
+  "IconUrl": "https://raw.githubusercontent.com/destesasinsh/HiAuRo/master/HiAuRo/Resources/HiAuRoIcon.png",
   "ApplicableVersion": "any",
   "Tags": [
     "combat",

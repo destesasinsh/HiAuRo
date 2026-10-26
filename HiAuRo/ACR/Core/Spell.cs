@@ -1,5 +1,5 @@
 using System.Numerics;
-using OmenTools.Dalamud.Services.ObjectTable.Abstractions.ObjectKinds;
+using OmenTools.Dalamud.Services.Game.Object.Abstractions.ObjectKinds;
 using FFXIVClientStructs.FFXIV.Client.Game;
 
 namespace HiAuRo.ACR;

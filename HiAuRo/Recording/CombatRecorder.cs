@@ -5,7 +5,7 @@ using FFXIVClientStructs.FFXIV.Client.Game;
 using HiAuRo.ACR;
 using HiAuRo.Execution.Events;
 using HiAuRo.Runtime;
-using OmenTools.Dalamud.Services.ObjectTable.Abstractions.ObjectKinds;
+using OmenTools.Dalamud.Services.Game.Object.Abstractions.ObjectKinds;
 using OmenTools.OmenService;
 using ActionTypeFF = FFXIVClientStructs.FFXIV.Client.Game.ActionType;
 

@@ -9,7 +9,7 @@ namespace HiAuRo.Runtime;
 /// </summary>
 public static class HelperUpdater
 {
-    private const string RepoOwner = "denghaoxuan991876906";
+    private const string RepoOwner = "destesasinsh";
     private const string RepoName = "HiAuRo.Helper";
     private const string DllName = "HiAuRo.Helper.dll";
     private const string LocalDevMarkerName = "HiAuRo.Helper.localdev";

@@ -54,7 +54,9 @@ public partial class Plugin : IDalamudPlugin
             Instance = this;
             _pluginInterface = pluginInterface;
 
-            DService.Init(pluginInterface);
+            // OmenTools 15.0.3.x 起初始化改为异步（按帧预算分批初始化服务）。
+            // Run/RunAsync 在 Framework 线程上是立即执行的，这里同步等待即可保持原构造流程不变。
+            DService.InitAsync(pluginInterface).GetAwaiter().GetResult();
             SettingMgr.Init(_pluginInterface.ConfigDirectory.FullName);
             _config = LoadConfig();
             LogManager.Instance.Init(_pluginInterface.ConfigDirectory.FullName);
@@ -285,7 +287,7 @@ public partial class Plugin : IDalamudPlugin
         ACR.SpellHistoryHelper.Reset();
 
         LogManager.Instance.Dispose();
-        DService.Uninit();
+        DService.UninitAsync().GetAwaiter().GetResult();
     }
 
     /// <summary>显示组件展示窗口</summary>

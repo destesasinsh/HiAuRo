@@ -178,7 +178,7 @@ public sealed class PluginConfig : SettingsBase
     public string? GitHubToken { get; set; }
 
     /// <summary>GitHub 仓库路径（owner/repo）</summary>
-    public string CatalogRepo { get; set; } = "denghaoxuan991876906/CatalogData";
+    public string CatalogRepo { get; set; } = "destesasinsh/CatalogData";
 
     /// <summary>GitHub 分支名</summary>
     public string CatalogBranch { get; set; } = "main";
@@ -292,6 +292,24 @@ public sealed class PluginConfig : SettingsBase
 
     /// <summary>在解析动作 ID 旁显示原始动作 ID</summary>
     public bool ShowItemIdOriginalActionId { get; set; }
+
+    // ── 技能状态关联信息（调试）──
+
+    /// <summary>在技能 tooltip 中显示该技能关联的状态信息（获得/需求 buff）</summary>
+    public bool ShowActionStatusInfoEnabled { get; set; }
+
+    /// <summary>显示施放后自身获得的 buff（原生 Action.StatusGainSelf）</summary>
+    public bool ShowActionStatusGain { get; set; } = true;
+
+    /// <summary>显示技能的需求/触发 buff（原生 Action.ActionProcStatus）</summary>
+    public bool ShowActionStatusRequire { get; set; } = true;
+
+    /// <summary>显示连击前置技能（原生 Action.ActionCombo）</summary>
+    public bool ShowActionCombo { get; set; }
+
+    // TODO(技能→目标buff): 游戏原生 Excel 无「技能施放后给目标施加的 buff/debuff」结构化字段，
+    // 该关联仅能靠运行时监听 ActionEffect 动态学习，或人工维护一份映射表单。
+    // 暂不实现，后续可新增一个用户可编辑的 Action->Status(目标) 映射表并在此展示。
 
     // ── 身位指示器 ──
 

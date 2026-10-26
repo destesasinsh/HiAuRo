@@ -38,7 +38,7 @@ ACR/<目录名>/
 如果作者使用 `HiAuRo-SampleACR` 模板仓库，默认可直接提供的作者源地址示例为：
 
 ```text
-https://raw.githubusercontent.com/denghaoxuan991876906/HiAuRo-SampleACR/master/publisher.json
+https://raw.githubusercontent.com/destesasinsh/HiAuRo-SampleACR/master/publisher.json
 ```
 
 一个最小 ACR 只需做三件事：
@@ -920,7 +920,7 @@ MathHelper.CountInSector(center, dir, radius, halfAngleDeg)  // 扇形内敌人�
 
 ### 6.11 HiAuRo.Helper — 职业数据辅助库（强烈推荐）
 
-> **GitHub**：[https://github.com/denghaoxuan991876906/HiAuRo.Helper](https://github.com/denghaoxuan991876906/HiAuRo.Helper)
+> **GitHub**：[https://github.com/destesasinsh/HiAuRo.Helper](https://github.com/destesasinsh/HiAuRo.Helper)
 
 `HiAuRo.Helper` 是社区维护的全职业数据辅助库，覆盖 FFXIV 全部 **21 个战斗职业**（4T + 4H + 6 近战 + 3 远敏 + 4 法系）。特点：
 
@@ -981,7 +981,7 @@ ACR 项目需要同时引用 `HiAuRo.Sdk` 和 `HiAuRo.Helper`。`HiAuRo.Sdk` 版
 ```bash
 # 1. 在你的 ACR 仓库根目录添加 submodule
 cd YourACR
-git submodule add https://github.com/denghaoxuan991876906/HiAuRo.Helper.git Helper
+git submodule add https://github.com/destesasinsh/HiAuRo.Helper.git Helper
 
 # 2. 加入 solution
 dotnet sln YourACR.slnx add Helper/HiAuRo.Helper/HiAuRo.Helper.csproj
@@ -1559,10 +1559,10 @@ Spell.Idle                            // 空操作占位符
 
 ## 参考
 
-- [HiAuRo 示例 ACR (完整参考实现)](https://github.com/denghaoxuan991876906/HiAuRo-SampleACR)
+- [HiAuRo 示例 ACR (完整参考实现)](https://github.com/destesasinsh/HiAuRo-SampleACR)
 - [HiAuRo 架构设计](./ARCHITECTURE.md)
 - [HiAuRo 项目章程](./PROJECT.md)
 - [HiAuRo 需求文档](./REQUIREMENTS.md)
 - [OmenTools 使用指南](./OMEN_TOOLS_USAGE.md)
 
-> **下一步**：读完本指南后，建议克隆 [HiAuRo-SampleACR](https://github.com/denghaoxuan991876906/HiAuRo-SampleACR) 示例仓库对照学习实际写法。
+> **下一步**：读完本指南后，建议克隆 [HiAuRo-SampleACR](https://github.com/destesasinsh/HiAuRo-SampleACR) 示例仓库对照学习实际写法。

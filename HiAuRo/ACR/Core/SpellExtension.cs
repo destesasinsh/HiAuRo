@@ -1,7 +1,7 @@
 using FFXIVClientStructs.FFXIV.Client.Game;
 using HiAuRo.Infrastructure;
 using OmenTools.Extensions;
-using OmenTools.Dalamud.Services.ObjectTable.Abstractions.ObjectKinds;
+using OmenTools.Dalamud.Services.Game.Object.Abstractions.ObjectKinds;
 using System.Numerics;
 
 namespace HiAuRo.ACR;

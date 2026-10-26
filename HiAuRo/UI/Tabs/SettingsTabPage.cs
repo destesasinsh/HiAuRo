@@ -121,6 +121,44 @@ public sealed class SettingsTabPage : TabPageBase
             ImGui.TextColored(Theme.Colors.TextTertiary, "在物品/技能悬浮提示的类别文字后追加其 ID，便于查表编写轴数据。");
         });
 
+        // ── 技能状态关联（调试）──
+        CL.Card("技能状态关联（调试）", () =>
+        {
+            var enabled = _config.ShowActionStatusInfoEnabled;
+            if (CL.Switch("actionstatus_enabled", "在技能提示中显示关联状态", ref enabled))
+            {
+                _config.ShowActionStatusInfoEnabled = enabled;
+                _saveConfig();
+            }
+
+            ImGui.BeginDisabled(!enabled);
+            {
+                var gain = _config.ShowActionStatusGain;
+                if (CL.Switch("actionstatus_gain", "显示施放后获得的 buff", ref gain))
+                {
+                    _config.ShowActionStatusGain = gain;
+                    _saveConfig();
+                }
+
+                var require = _config.ShowActionStatusRequire;
+                if (CL.Switch("actionstatus_require", "显示需求/触发 buff", ref require))
+                {
+                    _config.ShowActionStatusRequire = require;
+                    _saveConfig();
+                }
+
+                var combo = _config.ShowActionCombo;
+                if (CL.Switch("actionstatus_combo", "显示连击前置技能", ref combo))
+                {
+                    _config.ShowActionCombo = combo;
+                    _saveConfig();
+                }
+            }
+            ImGui.EndDisabled();
+
+            ImGui.TextColored(Theme.Colors.TextTertiary, "信息取自游戏原生数据。注意：原生数据无「技能给目标施加的 buff/debuff」，故暂不显示。");
+        });
+
         CL.Card("显示 Buff ID（调试）", () =>
         {
             var enabled = _config.ShowBuffIdEnabled;
